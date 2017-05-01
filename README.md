@@ -771,10 +771,9 @@ Hover over the number of files and click the plus button.
 
 **Stage selected**
 
-Stage a portion of a file by selecting that file (using the arrows) and then staging 
-"selected lines" via the more button. 
+Stage a portion of a file by selecting that file (using the arrows) and then choosing "Stage Selected Ranges" from the command palette.
 
-![git stage selected](/media/git_stage_selected.gif)
+![git stage selected](https://cloud.githubusercontent.com/assets/1926584/23407797/ebeefbb4-fdc5-11e6-8ca1-c4c6c056a8fd.png)
 
 ## Undo last commit
 
