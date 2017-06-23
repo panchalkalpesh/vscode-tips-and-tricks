@@ -208,6 +208,7 @@ Open `settings.json`
 *Font ligatures*
 
 ```json
+"editor.fontFamily": "Fira Code",
 "editor.fontLigatures": true
 ```
 
