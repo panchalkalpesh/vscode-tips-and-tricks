@@ -84,6 +84,9 @@ to execute "Shell Command: Install 'code' command in PATH".
 # open code with current directory
 code .
 
+# open the current directory in the most recently used code window
+code -r .
+
 # create a new window
 code -n
 
