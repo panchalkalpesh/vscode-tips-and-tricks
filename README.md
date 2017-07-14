@@ -446,7 +446,7 @@ Enter distraction free Zen mode.
 
 > Mac: <kbd>cmd+w</kbd>
 
-> Linux: <kbd>ctrl+k f</kbd>
+> Windows / Linux: <kbd>ctrl+k f</kbd>
 
 ## History
 
@@ -610,7 +610,7 @@ More in [documentation](https://code.visualstudio.com/docs/editor/editingevolved
 
 ![navigate to beginning and end of file](/media/beginning_end_file.gif)
 
-## Toggle README preview
+## Open Markdown Preview
 
 In a Markdown file, use
 
@@ -624,7 +624,9 @@ In a Markdown file, use
 
 In a Markdown file, use
 
-> Linux: <kbd>ctrl+k v</kbd>
+> Mac: <kbd>cmd+k v</kbd>
+
+> Windows / Linux: <kbd>ctrl+k v</kbd>
 
 Special bonus: The preview will now sync.
 
