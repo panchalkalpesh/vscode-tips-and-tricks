@@ -126,6 +126,8 @@ Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
 
 ![errors and warnings](/media/Errors_Warnings.gif)
 
+You can filter problems by type ('errors', 'warnings') or text matching.
+
 **Change language mode**
 
 > Mac: <kbd>cmd+k m</kbd>
@@ -133,6 +135,8 @@ Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
 > Windows / Linux: <kbd>ctrl+k m</kbd>
 
 ![change syntax](/media/change_syntax.gif)
+
+If you want to persist the new language mode for that file type, you can use the **Configure File Association for ...** command to associate the current file extension with an installed language.
 
 # Customization
 
@@ -424,6 +428,8 @@ Enter distraction free Zen mode.
 
 ![split editors](/media/split_editor.gif)
 
+You can use drag and drop editors to create new editor groups and move editors between groups.
+
 ## Switch between editors
 
 > Mac: <kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd>
@@ -534,13 +540,19 @@ More in [documentation](https://code.visualstudio.com/docs/editor/editingevolved
 
 ![shrink expand selection](/media/shrink_expand_selection.gif)
 
-## Find by symbol
+## Go to Symbol in File
 
 > Mac: <kbd>cmd+shift+o</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+o</kbd>
 
 ![Find by symbol](/media/find_by_symbol.gif)
+
+## Go to Symbol in Workspace
+
+> Mac: <kbd>cmd+t</kbd>
+
+> Windows / Linux: <kbd>ctrl+t</kbd>
 
 ## Navigate to a specific line
 
@@ -773,6 +785,10 @@ Toggle inline view by clicking the **More** (...) button in the top right and se
 ![git inline](/media/git_inline.png)
 
 If you prefer the inline view, you can set `"diffEditor.renderSideBySide": false`.
+
+**Edit pending changes**
+
+You can make edits directly in the pending changes of the diff view.
 
 ## Branches
 
