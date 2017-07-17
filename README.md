@@ -66,6 +66,10 @@ Quickly open files.
 
 > **Tip:** Type "?" to view help suggestions.
 
+### Open multiple files from Quick Open
+
+You can open multiple files from **Quick Open** by pressing the Right arrow key. This will open the currently selected file in the background and you can continue selecting files from **Quick Open**.
+
 ## CLI tool
 
 > Linux: Follow instructions [here](https://code.visualstudio.com/docs/editor/setup#_linux).
@@ -344,7 +348,7 @@ See more in the [documentation](https://code.visualstudio.com/docs/languages/jso
 
 ## Install extensions
 
-Click the Extensions Activity Bar button. You can search via the search bar or click the more button to filter and sort by install count.
+Click the Extensions Activity Bar button. You can search via the search bar or click the **More** (...) button to filter and sort by install count.
 
 ![install extensions](/media/InstallExtensions.gif)
 
@@ -762,11 +766,13 @@ Default is side by side diff.
 
 **Inline view**
 
-Toggle inline view by clicking more button in the top right.
+Toggle inline view by clicking the **More** (...) button in the top right and selecting **Switch to Inline View**.
 
 ![more git button](/media/more_button.png)
 
 ![git inline](/media/git_inline.png)
+
+If you prefer the inline view, you can set `"diffEditor.renderSideBySide": false`.
 
 ## Branches
 
