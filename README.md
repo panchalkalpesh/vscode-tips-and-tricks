@@ -66,6 +66,10 @@ Quickly open files.
 
 > **Tip:** Type "?" to view help suggestions.
 
+### Open multiple files from Quick Open
+
+You can open multiple files from **Quick Open** by pressing the Right arrow key. This will open the currently selected file in the background and you can continue selecting files from **Quick Open**.
+
 ## CLI tool
 
 > Linux: Follow instructions [here](https://code.visualstudio.com/docs/editor/setup#_linux).
