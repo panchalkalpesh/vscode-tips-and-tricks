@@ -344,7 +344,7 @@ See more in the [documentation](https://code.visualstudio.com/docs/languages/jso
 
 ## Install extensions
 
-Click the Extensions Activity Bar button. You can search via the search bar or click the more button to filter and sort by install count.
+Click the Extensions Activity Bar button. You can search via the search bar or click the **More** (...) button to filter and sort by install count.
 
 ![install extensions](/media/InstallExtensions.gif)
 
@@ -762,11 +762,13 @@ Default is side by side diff.
 
 **Inline view**
 
-Toggle inline view by clicking more button in the top right.
+Toggle inline view by clicking the **More** (...) button in the top right and selecting **Switch to Inline View**.
 
 ![more git button](/media/more_button.png)
 
 ![git inline](/media/git_inline.png)
+
+If you prefer the inline view, you can set `"diffEditor.renderSideBySide": false`.
 
 ## Branches
 
