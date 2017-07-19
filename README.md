@@ -580,7 +580,7 @@ More in [documentation](https://code.visualstudio.com/docs/editor/editingevolved
 
 ## Trim trailing whitespace
 
-> Mac: <kbd>cmd+shift+x</kbd>
+> Mac: <kbd>cmd+k cmd+x</kbd>
 
 > Windows / Linux: <kbd>ctrl+k</kbd> <kbd>ctrl+x</kbd>
 
