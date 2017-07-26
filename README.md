@@ -786,9 +786,19 @@ Toggle inline view by clicking the **More** (...) button in the top right and se
 
 If you prefer the inline view, you can set `"diffEditor.renderSideBySide": false`.
 
+
+**Review Pane**
+
+Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format. 
+Lines can be navigated with arrow keys and pressing `Enter` will jump back in the diff editor and the selected line.
+
+![diff_review_pane](/media/diff_review_pane.png)
+
+
 **Edit pending changes**
 
 You can make edits directly in the pending changes of the diff view.
+
 
 ## Branches
 
