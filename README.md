@@ -756,6 +756,13 @@ Toggle inline view by clicking more button in the top right.
 
 ![git inline](/media/git_inline.png)
 
+**Review Pane**
+
+Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format. 
+Lines can be navigated with arrow keys and pressing `Enter` will jump back in the diff editor and the selected line.
+
+![diff_review_pane](/media/diff_review_pane.png)
+
 ## Branches
 
 Easily switch between branches via the status bar. 
