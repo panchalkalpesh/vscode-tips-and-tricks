@@ -226,7 +226,7 @@ Open `settings.json`
 *Auto Save*
 
 ```json
-"files.autoSave": "afterdelay"
+"files.autoSave": "afterDelay"
 ```
 
 You can also toggle Auto Save from the top-level menu with the **File** > **Auto Save**.
