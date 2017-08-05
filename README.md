@@ -230,7 +230,7 @@ Open `settings.json`
 *Auto Save*
 
 ```json
-"files.autoSave": "afterdelay"
+"files.autoSave": "afterDelay"
 ```
 
 You can also toggle Auto Save from the top-level menu with the **File** > **Auto Save**.
@@ -590,7 +590,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ## Trim trailing whitespace
 
-> Mac: <kbd>cmd+shift+x</kbd>
+> Mac: <kbd>cmd+k cmd+x</kbd>
 
 > Windows / Linux: <kbd>ctrl+k</kbd> <kbd>ctrl+x</kbd>
 
@@ -798,9 +798,19 @@ Toggle inline view by clicking the **More** (...) button in the top right and se
 
 If you prefer the inline view, you can set `"diffEditor.renderSideBySide": false`.
 
+
+**Review Pane**
+
+Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format. 
+Lines can be navigated with arrow keys and pressing `Enter` will jump back in the diff editor and the selected line.
+
+![diff_review_pane](/media/diff_review_pane.png)
+
+
 **Edit pending changes**
 
 You can make edits directly in the pending changes of the diff view.
+
 
 ## Branches
 
