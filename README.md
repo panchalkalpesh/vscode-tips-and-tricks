@@ -468,7 +468,7 @@ Navigate entire history with <kbd>ctrl+tab</kbd>
 
 Navigate back.
 
-> Mac: <kbd>ctrl+-</kdbd>
+> Mac: <kbd>ctrl+-</kbd>
 
 > Windows / Linux: <kbd>alt+left</kbd>
 
@@ -674,11 +674,11 @@ Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the con
 
 ## Go to Definition
 
-Select a symbol then type <kbd>f12</kbd>. Alternatively, you can use the context menu or <kbd>ctrl+click</kdb> (<kbd>cmd+click</kbd> on macOS).
+Select a symbol then type <kbd>f12</kbd>. Alternatively, you can use the context menu or <kbd>ctrl+click</kbd> (<kbd>cmd+click</kbd> on macOS).
 
 ![go to definition](/media/goto_definition.gif)
 
-You can go back to your previous location with the **Go** > **Back** command or <kbd>alt+left arrow</kbd> (<kbd>ctrl+-</kbd> on macOS).
+You can go back to your previous location with the **Go** > **Back** command or <kbd>alt+left</kbd> (<kbd>ctrl+-</kbd> on macOS).
 
 ## Find All References
 
@@ -868,7 +868,7 @@ git config --global merge.tool code
 
 ## Configure debugger
 
-<kdb>f1</kdb> and select **Debug: Open launch.json**, select the environment. This will generate a `launch.json` file. Works out of the box as expected for Node.js and other environments. May need some additional configuration for other languages. See [documentation](https://code.visualstudio.com/docs/editor/debugging) for more details.
+<kbd>f1</kbd> and select **Debug: Open launch.json**, select the environment. This will generate a `launch.json` file. Works out of the box as expected for Node.js and other environments. May need some additional configuration for other languages. See [documentation](https://code.visualstudio.com/docs/editor/debugging) for more details.
 
 ![configure debugging](/media/configure_debug.gif)
 
