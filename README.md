@@ -7,7 +7,7 @@
 3. <a href="#extensions">Extensions</a>
 4. <a href="#file-and-folder-management">File and folder management</a>
 5. <a href="#editing-hacks">Editing hacks</a>
-6. <a href="#intelliSense">IntelliSense</a>
+6. <a href="#intellisense">IntelliSense</a>
 7. <a href="#snippets">Snippets</a>
 8. <a href="#git-integration">Git integration</a>
 9. <a href="#debugging">Debugging</a>
@@ -65,6 +65,10 @@ Quickly open files.
 ![Quick Open](/media/QuickOpen.gif)
 
 > **Tip:** Type "?" to view help suggestions.
+
+### Navigate between recently opened files
+
+Repeat the **Quick Open** keyboard shortcut to cycle quickly between recently opened files.
 
 ### Open multiple files from Quick Open
 
@@ -226,7 +230,7 @@ Open `settings.json`
 *Auto Save*
 
 ```json
-"files.autoSave": "afterdelay"
+"files.autoSave": "afterDelay"
 ```
 
 You can also toggle Auto Save from the top-level menu with the **File** > **Auto Save**.
@@ -464,7 +468,7 @@ Navigate entire history with <kbd>ctrl+tab</kbd>
 
 Navigate back.
 
-> Mac: <kbd>ctrl+-</kdbd>
+> Mac: <kbd>ctrl+-</kbd>
 
 > Windows / Linux: <kbd>alt+left</kbd>
 
@@ -548,11 +552,17 @@ More in [documentation](https://code.visualstudio.com/docs/editor/editingevolved
 
 ![Find by symbol](/media/find_by_symbol.gif)
 
+You can group the symbols by kind by adding a colon, `@:`.
+
+![group symbols by kind](/media/group_symbols_by_kind.png)
+
 ## Go to Symbol in Workspace
 
 > Mac: <kbd>cmd+t</kbd>
 
 > Windows / Linux: <kbd>ctrl+t</kbd>
+
+![go to symbol in workspace](/media/go_to_symbol_in_workspace.png)
 
 ## Navigate to a specific line
 
@@ -662,19 +672,21 @@ Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the con
 
 ![peek](/media/peek.gif)
 
-## Go to definition
+## Go to Definition
 
-Select a symbol then type <kbd>f12</kbd>. Alternatively, you can use the context menu.
+Select a symbol then type <kbd>f12</kbd>. Alternatively, you can use the context menu or <kbd>ctrl+click</kbd> (<kbd>cmd+click</kbd> on macOS).
 
 ![go to definition](/media/goto_definition.gif)
 
-## Find all references
+You can go back to your previous location with the **Go** > **Back** command or <kbd>alt+left</kbd> (<kbd>ctrl+-</kbd> on macOS).
+
+## Find All References
 
 Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the context menu.
 
 ![find all references](/media/find_all_references.gif)
 
-## Rename symbol
+## Rename Symbol
 
 Select a symbol then type <kbd>f2</kbd>. Alternatively, you can use the context menu.
 
@@ -856,7 +868,7 @@ git config --global merge.tool code
 
 ## Configure debugger
 
-<kdb>f1</kdb> and select **Debug: Open launch.json**, select the environment. This will generate a `launch.json` file. Works out of the box as expected for Node.js and other environments. May need some additional configuration for other languages. See [documentation](https://code.visualstudio.com/docs/editor/debugging) for more details.
+<kbd>f1</kbd> and select **Debug: Open launch.json**, select the environment. This will generate a `launch.json` file. Works out of the box as expected for Node.js and other environments. May need some additional configuration for other languages. See [documentation](https://code.visualstudio.com/docs/editor/debugging) for more details.
 
 ![configure debugging](/media/configure_debug.gif)
 
@@ -871,6 +883,10 @@ Place breakpoints next to the line number. Navigate forward with the Debug widge
 Inspect variables in the Debug panels and in the console.
 
 ![data inspection](/media/debug_data_inspection.gif)
+
+## Inline values
+
+You can set `"debug.inlineValues": true` to see variable values inline in the debugger. This feature is experimental and disabled by default.
 
 # Task Runner
 
