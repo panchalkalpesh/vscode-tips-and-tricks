@@ -612,7 +612,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ## Code folding
 
-> Mac: <kbd>shift+cmd+\[</kbd> and <kbd>shift+cmd+\]</kbd>
+> Mac: <kbd>alt+cmd+\[</kbd> and <kbd>alt+cmd+\]</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+\[</kbd> and <kbd>ctrl+shift+\]</kbd>
 
