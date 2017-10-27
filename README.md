@@ -854,9 +854,10 @@ View diff decorations in editor. See [documentation](https://code.visualstudio.c
 
 ## Resolve merge conflicts
 
-During a merge, click the Source Control button in the Activity Bar and make changes in the diff view.
+During a merge, click the Source Control button in the Activity Bar and make changes in the diff view. Select and accept current, incoming or both changes in just one click.
 
 ![git icon](/media/git_icon.png)
+![resolve merge conflicts](/media/resolve_merge_conflicts.gif)
 
 ## Setup VS Code as default merge tool
 
