@@ -76,9 +76,9 @@ You can open multiple files from **Quick Open** by pressing the Right arrow key.
 
 ## CLI tool
 
-> Linux: Follow instructions [here](https://code.visualstudio.com/docs/editor/setup#_linux).
+> Linux: Follow instructions [here](https://code.visualstudio.com/docs/setup/linux).
 
-> Windows: Follow instructions [here](https://code.visualstudio.com/docs/editor/setup#_windows).
+> Windows: Follow instructions [here](https://code.visualstudio.com/docs/setup/windows).
 
 > Mac: see below.
 
